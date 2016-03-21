@@ -1,0 +1,54 @@
+html {
+	background-color: #fafafa;
+	font-size: 16px;
+	font-size: 3.5vw;
+	font-family: 'Roboto', Sans-Serif;
+}
+
+@media (min-width: 1024px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+body {
+	margin:0;
+}
+
+ol {
+	padding:0;
+	list-style-type:none;
+}
+
+li.songitem {
+	padding: 0;
+	background-color: #3f51b5;
+}
+	
+li.songitem:nth-child(even) {
+	background-color: #303f9f;
+}
+
+#accordion .ui-accordion-content {
+	padding: 6px;
+	padding: 1.5vw;
+}
+
+.songtitle {
+	display: block;
+	margin:0;
+	padding: 6px;
+	padding: 1.5vw;
+	background-color: #3f51b5;
+	color: #ffffff;
+}
+
+.songtitle:nth-of-type(even) {
+	background-color: #303f9f;
+
+.lyrics {
+	background-color: #fafafa;
+	//padding: 6px;
+	//padding: 1.5vw;
+}
+
